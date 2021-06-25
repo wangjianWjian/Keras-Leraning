@@ -11,4 +11,4 @@
 
 ```python
 model.compile(loss='mse', optimizer='sgd', metrics=['accuracy'])
-····
+```
