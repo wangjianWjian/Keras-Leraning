@@ -32,6 +32,6 @@ def myLoss(y_pred, y_true):
 model.compile(loss=myLoss, optimizer='sgd') # 允许直接传入函数句柄
 
 
-'''python
+'''python  
 test
 ''''
