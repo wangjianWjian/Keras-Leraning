@@ -30,3 +30,8 @@ def myLoss(y_pred, y_true):
     return loss_value
 
 model.compile(loss=myLoss, optimizer='sgd') # 允许直接传入函数句柄
+
+
+'''python
+test
+''''
