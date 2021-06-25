@@ -4,7 +4,7 @@
 
 ---------------
 
-SGD 【常用】
+## SGD 【常用】
 ```python
 SGD(lr=0.01, momentum=0.0, decay=0.0, nesterov=False)
 ```
@@ -16,7 +16,7 @@ SGD(lr=0.01, momentum=0.0, decay=0.0, nesterov=False)
 
 -----------------
 
-RMSprop 【常用】
+## RMSprop 【常用】
 ```python
 RMSprop(lr=0.001, rho=0.9, epsilon=None, decay=0.0)
 ```
@@ -28,7 +28,7 @@ RMSprop(lr=0.001, rho=0.9, epsilon=None, decay=0.0)
 
 ------------------
 
-Adam 【常用】
+## Adam 【常用】
 ```python
 Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
 ```
