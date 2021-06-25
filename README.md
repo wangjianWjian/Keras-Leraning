@@ -32,4 +32,7 @@ cuDNN==8.0
 ----------------------------------
 
 ## Help Manuel:
-该文件夹下存放了loss，metrics，optimizer，callbacks的常见操作，在使用过程中不清楚的可以用来快速查找，对于初学而言足够折腾了
+该文件夹下存放了loss，metrics，optimizer，datasets，compile，callbacks的常见操作，在使用过程中不清楚的可以用来快速查找，对于初学而言足够折腾了。  
+在Quick Start中callbacks不常见，但这个却是非常好用的功能，可以用来控制模型的计算和自动化。  
+
+
