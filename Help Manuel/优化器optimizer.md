@@ -42,7 +42,7 @@ Adam(lr=0.001, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0, amsgrad=False)
 
 --------------------
 
-Adagrad
+## Adagrad
 ```python
 Adagrad(lr=0.01, epsilon=None, decay=0.0)
 ```
@@ -53,7 +53,7 @@ Adagrad(lr=0.01, epsilon=None, decay=0.0)
 
 ---------------
 
-Adadelta
+## Adadelta
 ```python
 Adadelta(lr=1.0, rho=0.95, epsilon=None, decay=0.0)
 ```
@@ -65,7 +65,7 @@ Adadelta(lr=1.0, rho=0.95, epsilon=None, decay=0.0)
 
 ------------
 
-Adamax
+## Adamax
 ```python
 Adamax(lr=0.002, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0)
 ```
@@ -77,7 +77,7 @@ Adamax(lr=0.002, beta_1=0.9, beta_2=0.999, epsilon=None, decay=0.0)
 
 --------------------
 
-Nadam
+## Nadam
 ```python
 Nadam(lr=0.002, beta_1=0.9, beta_2=0.999, epsilon=None, schedule_decay=0.004)
 ```
