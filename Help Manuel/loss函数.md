@@ -15,7 +15,7 @@ model.compile(loss='mse', optimizer='sgd')
 
 后面可以使用自定义的损失函数：  
 def myLoss(y_pred, y_true):  
- loss_value = np.abs(y_pred - y_true) ** 3  
+          loss_value = np.abs(y_pred - y_true) ** 3  
     return loss_value
 
 model.compile(loss=myLoss, optimizer='sgd') # 允许直接传入函数句柄
