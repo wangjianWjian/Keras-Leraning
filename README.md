@@ -6,7 +6,7 @@ Tensorflow-GPU==2.4.0
 CUDA==11.0  
 cuDNN==8.0  
 
-【小贴士】：安装完一个新版本的CUDA和cuDNN后一定要重新启动，否则会发现无论安装什么版本的都会报错，我在这上面耗费了2天多时间。  
+【小贴士】：安装完一个新版本的CUDA和cuDNN后一定要重新启动，否则会发现无论安装什么版本的都会报错，我在这上面耗费了2天多时间。
            CSDN上很多文章都忘了写需要重启这一项，切记切记！！！  
            不知道版本对应的下面是连接：  
            https://tensorflow.google.cn/install/source_windows
