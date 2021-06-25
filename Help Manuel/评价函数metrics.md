@@ -9,6 +9,8 @@
 | sparse_categorical_accuracy | （多分类）准确率【y是整数数据】 |  
 | sparse_top_k_categorical_accuracy | （多分类）准确率【y是整数数据】 |  
 
+
+如何使用
 ```python
 model.compile(loss='mse', optimizer='sgd', metrics=['accuracy'])
 ```
