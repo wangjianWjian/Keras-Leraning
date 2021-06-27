@@ -14,7 +14,7 @@ cuDNN==8.0
 ------------------------------
 
 ## 食用顺序
-Quick Start -->  Save and Load --> Tensorboard --> Mutil GPU --> Advance  
+Quick Start --> Use Extent Model --> Save and Load --> Tensorboard --> Mutil GPU --> Advance  
 
 此外，Help Manuel 中有损失函数loss，评价标准metrics，优化器optimizer，模型编译compile，常用数据集datasets的快速查询表格。  
 
