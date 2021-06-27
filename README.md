@@ -16,7 +16,9 @@ cuDNN==8.0
 ## 食用顺序
 Quick Start -->  Save and Load --> Tensorboard --> Mutil GPU --> Advance  
 
-此外，Help Manule 中有损失函数loss，评价标准metrics，优化器optimizer，模型编译compile的快速查看表格。
+此外，Help Manule 中有损失函数loss，评价标准metrics，优化器optimizer，模型编译compile，常用数据集datasets的快速查询表格。  
+
+对于初学者而言必须将Quick Start中的代码完完全全敲上2遍以加深印象，进阶的读者可以直接从Advance开始阅读。
 
 ------------------------------
 
