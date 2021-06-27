@@ -38,8 +38,8 @@ model.compile(
 ```python
 import keras.backend as K
 
-def mean_pred(y_true, y_pred):    # 无论用没用到都必须要传入两个值，并且true在前pred在后
-    return K.mean(y_pred)
+def mean_pred(y_true, y_pred):    # 无论用没用到都必须要传入两个值，true和pred的顺序并不重要
+    return K.mean(y_pred)         # 因为损失值本身就是真实与预测的差值，差值的大小比方向重要
 
 model.compile(
     optimizer="rmsprop",
